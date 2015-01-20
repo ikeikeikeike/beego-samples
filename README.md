@@ -1,0 +1,2 @@
+# beego-samples
+auth
