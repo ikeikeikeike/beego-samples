@@ -1,0 +1,82 @@
+html,body {
+    height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 75px auto -60px; /* フッターの高さ分だけ、ネガティブインデントを指定 */
+  padding: 0 0 60px; /* フッターの高さ分だけ、パディングを指定 */
+}
+
+footer {
+    padding: 40px 0;
+    /* background-color: #434a54; */
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+
+.footer-logo {
+    height: 32px;
+    margin-top: -5px;
+    line-height: 32px;
+}
+
+.footer-logo, .footer-nav {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6,nav {
+    font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important;
+    /* font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif !important; */
+    /* font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace !important; */
+}
+
+.required:after {
+    content: "*";
+    color: rgb(224, 100, 23);
+    padding-left: 1%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.badge-mini.badge {
+    padding: 3px 3px;
+    font-size: 10px;
+    line-height: 0.7;
+}
+
+.no-heading-style {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline;
+}
+
+.vertical-offset-100{
+    padding-top: 100px;
+}
+
+.vertical-offset-75{
+    padding-top: 75px;
+}
+
+.vertical-offset-50{
+    padding-top: 50px;
+}
+
+.cwhite {
+    color: #FFF;
+}
+
+.list-group-item.right-arrow:after {
+    font-family: 'Glyphicons Halflings';
+    float: right;
+    content:"\e080";
+}
