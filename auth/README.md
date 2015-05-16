@@ -1,6 +1,6 @@
 ```
 $ git clone git@github.com:ikeikeikeike/beego-samples.git
-$ cd auth
+$ cd beego-samples/auth
 ```
 
 ```
